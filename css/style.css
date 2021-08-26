@@ -1,0 +1,52 @@
+@import url(variables.css);
+/* navigation s */
+.header_main .menu .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+@import url(global.css)
+
+/* .shadow {
+    width: 75%;
+    margin:auto;
+    
+} */
+
+.header_main .menu .navbar{
+    padding: 1rem 1rem;
+    
+}
+
+.navbar-brand {
+    font-size: 30px;
+    margin-left: -3rem;
+}
+
+.header_main .menu .nav-item .nav-link {
+    font-family: var(--lato);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+
+
+}
+
+.header_main .menu .navbar-nav .active {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.header_main .menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+/* footer Puja */
+
+
