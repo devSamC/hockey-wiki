@@ -12,7 +12,16 @@
     
 } */
 
-.header_main .menu .navbar{
+.nonsense {
+    padding:0;
+}
+
+a > span {
+    padding-left: 2rem;
+    margin-right: 0;
+}
+
+.header_main .menu .navbar {
     padding: 1rem 1rem;
     
 }
@@ -46,3 +55,14 @@
     background-clip: text;
 
 }
+
+@media only screen and (max-width:694px) {
+    a > .Title{
+        display: none;
+        cursor:pointer;
+
+    }
+
+/* footer Puja */
+
+
