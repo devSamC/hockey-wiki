@@ -17,7 +17,7 @@
 }
 
 a > span {
-    padding-left: 2rem;
+    padding-left: 5rem;
     margin-right: 0;
 }
 
@@ -42,14 +42,14 @@ a > span {
 }
 
 .header_main .menu .navbar-nav .active {
-    background: var(--gradient-color);
+    background: red;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 
 }
 .header_main .menu .navbar-nav a:hover{
-    background: var(--gradient-color);
+    background: red;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -61,6 +61,19 @@ a > span {
     height:360px;
     align-items: center;
   }
+  
+  
+  
+  
+  
+  footer p {
+    margin-left: 20px;
+}
+footer div a {
+    padding:5px;
+    text-decoration: none;
+    margin-right:20px;
+}
 
 
 
@@ -70,10 +83,6 @@ a > span {
 
 
 
-
-   section > .site-banner {
-       border:5px solid red;
-   }
 
 
 
